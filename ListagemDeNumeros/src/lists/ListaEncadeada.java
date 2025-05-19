@@ -1,5 +1,7 @@
 package lists;
 
+import entities.Celula;
+
 import javax.security.auth.Subject;
 
 public class ListaEncadeada {

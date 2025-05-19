@@ -51,7 +51,7 @@ public class ListaEncadeada<E> {
 
 		if(primeiro == null) {
 			return false;
-		} else if(posicaoAtual == null) {
+		} else if (posicaoAtual == null) {
 			posicaoAtual = primeiro;
 			return true;
 		} else {

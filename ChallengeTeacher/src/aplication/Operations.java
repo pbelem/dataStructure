@@ -1,14 +1,16 @@
 package aplication;
 
-import entities.Teacher;
-
 public class Operations {
 
-    public static Teacher addTeacher(Teacher teacher) {
+    public static void addTeacher() {
 
-        
+        String nameTeacher;
+        int registrationTeacher;
+
+
         System.out.println("Enter teacher's name:");
+        nameTeacher = System.console().readLine();
+        System.out.println("Enter teacher's registration number:");
 
-        return teacher;
     }
 }

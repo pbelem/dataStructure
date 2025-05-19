@@ -20,6 +20,7 @@ public class TestaListaEncadeada1 {
 		while (listaEncadeada.temProximo()) {
 			System.out.println(listaEncadeada);
 		}
+
 	}
 
 	public static void addTeacher(ListaEncadeada listaEncadeada) {
